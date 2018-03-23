@@ -1,0 +1,119 @@
+<!DOCTYPE_html>
+<html lang="en">
+<!---------------------->
+<!--Head Section-->
+<!---------------------->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Ryan Enquist: Marketing and Project Management">
+        <meta name="keywords" content="Marketing, Advertising, Project Management, Design">
+        <meta name="author" content="Ryan Enquist">
+        <title>Ryan Enquist | Welcome</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<!---------------------->
+<!--Body Section-->
+<!---------------------->
+    <body>
+<!-------------------->
+<!--Showcase Section-->
+<!-------------------->
+        <section id="showcase">
+            <div class="picture-1">
+<!------------------>
+<!--Navbar Section-->
+<!------------------>
+                <nav class="navbar">
+                    <span class="open-slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <svg width="30" height="30">
+                                <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                                <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            </svg>
+                        </a>
+                    </span>
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                        <a href="index.html" class="current">Home</a>
+                        <a href="about-index.html">About</a>
+                        <a href="my-work-index.html">My Work</a>
+                        <a href="contact-index.html">Contact</a>
+                    </div>
+                </nav>
+                <div class="picture-1-text">
+                    <h1><span class="highlight">Ryan</span> Enquist</h1>
+                   <p>Marketing Project Management</p>
+                </div>
+            </div>
+        </section>
+<!------------->
+<!--Section 1-->
+<!------------->
+        <section class="section-1">
+            <div class="box-1">
+                <h2>Hi I'm <span class="highlight">Ryan</span></h2>
+                <p>Marketing Project Management Ninja from the Pacific North West.</p>
+                <p>Let's build something amazing together.</p>
+            </div>
+        </section>
+<!------------->
+<!--Section 2-->
+<!------------->
+        <section class="section-2">
+            <div class="box-2">
+                <i class="fa fa-paint-brush"></i>
+                <h3>Creative</h3>
+                <p>Colorful and artistic. I'm a results oriented professional who loves to draw outside the lines.</p>
+            </div>
+            <div class="box-3">
+                <i class="fa fa-bar-chart"></i>
+                <h3>Analytical</h3>
+                <p>Organized and investigative. I help provide efficient solutions to impossible problems.</p>
+            </div>
+            <div class="box-4">
+                <i class="fa fa-cog"></i>
+                <h3>Innovative</h3>
+                <p>A thinker and a doer. I aim for the sky, while never letting my feet leave the ground.</p>
+            </div>
+        </section>
+<!------------->
+<!--Section 3-->
+<!------------->
+        <section class="section-3">
+            <div class="flex-container">
+                <div class="box-5"></div>
+                <div class="box-6"></div>
+                <div class="box-7"></div>
+                <div class="box-8"></div>
+                <div class="box-9"></div>
+                <div class="box-10"></div>
+                <div class="box-11"></div>
+                <div class="box-12"></div>
+            </div>
+        </section>
+<!------------------>
+<!--Footer Section-->
+<!------------------>
+        <footer>
+            <p>Copyright &copy; 2018 Ryan Enquist | Marketing Project Manager</p>
+        </footer>
+<!---------------------->
+<!--JavaScript Section-->
+<!---------------------->
+        <script>
+            function openSlideMenu(){
+                document.getElementById('side-menu').style.width = '250px';
+                document.getElementById('main').style.marginLeft = '250px';
+            }
+
+            function closeSlideMenu(){
+                document.getElementById('side-menu').style.width = '0';
+                document.getElementById('main').style.marginLeft = '0';
+            }
+        </script>
+    </body>
+</html>

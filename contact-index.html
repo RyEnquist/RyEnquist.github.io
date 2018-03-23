@@ -1,0 +1,118 @@
+<!DOCTYPE_html>
+<html lang="en">
+<!---------------------->
+<!--Head Section-->
+<!---------------------->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Ryan Enquist: Marketing and Project Management">
+        <meta name="keywords" content="Marketing, Advertising, Project Management, Design">
+        <meta name="author" content="Ryan Enquist">
+        <title>Ryan Enquist | Contact</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<!---------------------->
+<!--Body Section-->
+<!---------------------->
+    <body>
+<!-------------------->
+<!--Showcase Section-->
+<!-------------------->
+        <section id="showcase">
+            <div class="picture-4">
+<!------------------>
+<!--Navbar Section-->
+<!------------------>
+                <nav class="navbar">
+                    <span class="open-slide">
+                        <a href="#" onclick="openSlideMenu()">
+                            <svg width="30" height="30">
+                                <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                                <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                                <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            </svg>
+                        </a>
+                    </span>
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="about-index.html">About</a>
+                        <a href="my-work-index.html">My Work</a>
+                        <a href="contact-index.html" class="current">Contact</a>
+                    </div>
+                </nav>
+                <div class="picture-4-text">
+                    <h1><span class="highlight">Ryan</span> Enquist</h1>
+                    <p>Contact</p>
+                </div>
+            </div>
+        </section>
+<!------------->
+<!--Section 1-->
+<!------------->
+        <section class="contact-section-1">
+            <div class="contact-flex-container">
+                <div class="company-info">
+                    <h3>Contact <span class="highlight">Me</span></h3>
+                    <p>Want to work together? Have questions about a project? Contact me here.</p>
+                    <ul>
+                        <li><i class="fa fa-id-card"></i>Name: Ryan Enquist</li>
+                        <li><i class="fa fa-phone-square"></i>Phone: <a href="tel:1-503-936-3380">503 936 3380</a></li>
+                        <li><i class="fa fa-envelope"></i>Email: <a href="mailto:ry.enquist89@gmail.com">ry.enquist89@gmail.com</a></li>
+                        <li><i class="fa fa-map"></i>Location: Happy Valley, OR</li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h3>Email <span class="highlight">Me</span></h3>
+                    <form>
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name">
+                        </p>
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="company">
+                        </p>
+                        <p>
+                            <label>Email Address</label>
+                            <input type="email" name="email">
+                        </p>
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone">
+                        </p>
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" rows="5"></textarea>
+                        </p>
+                        <p class="full">
+                            <button>Submit</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+<!------------------>
+<!--Footer Section-->
+<!------------------>
+        <footer>
+            <p>Copyright &copy; 2018 Ryan Enquist | Marketing Project Manager</p>
+        </footer>
+<!---------------------->
+<!--JavaScript Section-->
+<!---------------------->
+        <script>
+            function openSlideMenu(){
+                document.getElementById('side-menu').style.width = '250px';
+                document.getElementById('main').style.marginLeft = '250px';
+            }
+
+            function closeSlideMenu(){
+                document.getElementById('side-menu').style.width = '0';
+                document.getElementById('main').style.marginLeft = '0';
+            }
+        </script>
+    </body>
+</html>

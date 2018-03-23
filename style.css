@@ -1,0 +1,1920 @@
+/*************************/
+/*GLOBAL SECTION*/
+/*************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #666;
+    background-color: rgb(245, 245, 245);
+}
+
+/*************************/
+/*NAVBAR*/
+/*************************/
+
+.open-slide svg {
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        z-index: 1;
+    }
+/* Original */
+/* Test...
+ .open-slide svg {
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        z-index: 1;
+    }
+*/
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: rgb(245, 245, 245);
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.side-nav a:hover {
+    color: rgb(255, 140, 0);
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+}
+
+.current {
+    background-color: rgb(255, 140, 0);
+    font-weight: bold;
+}
+
+/*************************/
+/*HOME PAGE SECTION*/
+/*************************/
+
+/*************************/
+/*HOME PAGE: Showcase*/
+/*************************/
+
+.picture-1 {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-road.jpeg);
+    min-height: 100%;
+    margin-bottom: 0;
+}
+
+.picture-1-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-1-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.highlight {
+    color: rgb(255, 140, 0);
+}
+
+.picture-1-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*HOME PAGE: Section-1*/
+/*************************/
+
+.section-1 {
+    display: flex;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+.box-1 {
+    text-align: center;
+    flex-basis: 80%;
+}
+
+.section-1 h2, .section-1 p {
+    margin-bottom: 25px;
+}
+
+.section-1 h2 {
+    margin-top: 35px;
+}
+
+/*************************/
+/*HOME PAGE: Section-2*/
+/*************************/
+
+.section-2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: rgb(102, 102, 102);
+    color: rgb(245, 245, 245);
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 300px;
+}
+
+.box-2, .box-3, .box-4 {
+    flex-basis: 20%;
+    min-width: 340px;
+    text-align: center;
+    padding: 25px;
+}
+
+.box-2 h3, .box-3 h3, .box-4 h3 {
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.box-2 i, .box-3 i, .box-4 i {
+    font-size: 50px;
+    color: rgb(255, 140, 0);
+}
+
+/*************************/
+/*HOME PAGE: Section-3*/
+/*************************/
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.box-5 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/AlarmCom-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px
+}
+
+.box-6 {
+    flex: 1;
+    background-image: url(../Images/Web/DevilMountain-2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px
+}
+
+.box-7 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Clicktail.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.box-8 {
+    flex: 1;
+    background-image: url(../Images/Web/RooGlue.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.box-9 {
+    flex: 1;
+    background-image: url(../Images/Web/WorldofTile-2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.box-10 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Nasdaq.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.box-11 {
+    flex: 1;
+    background-image: url(../Images/Web/SparetimeSupply.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.box-12 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/QDVision-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+/*************************/
+/*HOME PAGE: Footer*/
+/*************************/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px auto;
+    background: rgb(245, 245, 245);
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 1.2rem;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*ABOUT PAGE SECTION*/
+/*************************/
+
+/*************************/
+/*About PAGE: Showcase*/
+/*************************/
+
+.picture-2 {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/About/Profile-BBall.JPG);
+    min-height: 100%;
+    margin-bottom: 0;
+}
+
+.picture-2-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-2-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.picture-2-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*ABOUT PAGE: Section-1*/
+/*************************/
+
+.about-section-1 {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.about-box-1 {
+    text-align: center;
+    flex-basis: 80%;
+}
+
+.about-section-1 h2, .about-section-1 p {
+    margin-bottom: 25px;
+}
+
+.about-section-1 h2 {
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+/*************************/
+/*ABOUT PAGE: Section-2*/
+/*************************/
+
+.about-section-2 {
+    display: flex;
+}
+
+.about-picture-2 {
+    flex: 1;
+    background-image: url(../Images/About/Profile-Bridge.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -500px;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+/*************************/
+/*ABOUT PAGE: Section-3*/
+/*************************/
+
+.about-box-5, .about-box-6 {
+    margin: 25px 0;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.about-box-5 h2, .about-box-6 h2 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.about-section-3a {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.about-section-3a {
+    background-image: url(../Images/Showcase/showcase-ps4.jpeg);
+    min-height: 400px;
+    margin-bottom: 0;
+}
+
+.section-3b {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(102, 102, 102);
+    color: rgb(245, 245, 245);
+}
+
+.about-box-7, .about-box-8, .about-box-9 {
+    flex: 1;
+    width: 33%;
+    height: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.about-box-7 h3, .about-box-8 h3, .about-box-9 h3 {
+    margin-bottom: 20px;
+    text-transform: uppercase
+}
+
+.about-box-7 ul, .about-box-8 ul, .about-box-9 ul {
+    list-style-type: none;
+    padding-bottom: 25px;
+    margin: 0;
+}
+    
+.about-box-7 i, .about-box-8 i, .about-box-9 i {
+    padding: 10px;
+    margin: 0;
+    font-size: 30px;
+    color: rgb(255, 140, 0);
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*MY WORK PAGE SECTION*/
+/*************************/
+
+/*************************/
+/*MY WORK PAGE: Showcase*/
+/*************************/
+
+.picture-3 {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-forest.jpeg);
+    min-height: 100%;
+    margin-bottom: 0;
+}
+
+.picture-3-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-3-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.picture-3-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*MY WORK PAGE: Section-1*/
+/*Content Heading*/
+/*************************/
+
+.mywork-section-1 {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.mywork-box {
+    flex: 1;
+    text-align: center;
+    flex-basis: 80%;
+    width: 100%;
+}
+
+.mywork-section-1 h2, .mywork-section-1 p {
+    margin-bottom: 25px;
+}
+
+.mywork-section-1 h2 {
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+/*************************/
+/*MY WORK PAGE: Section-2*/
+/*Image Gallery*/
+/*************************/
+
+.mywork-flex-container-1 {
+    display: flex;
+    margin: 0px 30px;
+    box-sizing: border-box;
+}
+
+.mywork-flex-container-2 {
+    display: flex;
+    margin: 50px 30px;
+    box-sizing: border-box;
+}
+
+.mywork-box-1 {
+    display: flex;
+    flex: 1;
+    background-image: url("../Images/Web/DevilMountain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -80px 0;
+    min-height: 400px;
+    border: 1px solid #666;
+    margin-right: 25px;
+    width: 100%;
+}
+
+.mywork-box-2 {
+    display: flex;
+    flex: 1;
+    background-image: url("../Images/Web/WorldofTile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -80px 0;
+    min-height: 400px;
+    width: 100%;
+    border: 1px solid #666;
+    margin-left: 25px;
+}
+
+.mywork-box-3 {
+    display: flex;
+    flex: 1;
+    background-image: url("../Images/Tradeshows/AlarmCom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    border: 1px solid #666;
+    width: 100%;
+    margin-right: 25px;
+}
+
+.mywork-box-4 {
+    display: flex;
+    flex: 1;
+    background-image: url("../Images/Web/AstorGroup.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 400px;
+    border: 1px solid #666;
+    width: 100%;
+    margin-left: 25px;
+}
+
+
+.mywork-box-1 a, .mywork-box-2 a, .mywork-box-3 a, .mywork-box-4 a {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+}
+
+.mywork-box-1 a p, .mywork-box-2 a p, .mywork-box-3 a p, .mywork-box-4 a p {
+    width: 100%;
+    height: auto;
+    padding-top: 30%;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.mywork-box-1 a p:hover, .mywork-box-2 a p:hover, .mywork-box-3 a p:hover, .mywork-box-4 a p:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgba(255, 140, 0, .9);
+}
+
+/*************************/
+/*MY WORK PAGE: Section-3*/
+/*Other Gallery*/
+/*************************/
+
+.mywork-section-3 {
+    background-color: rgb(102, 102, 102);
+    font-size: 1.6rem;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.mywork-section-3 h2 {
+    color: rgb(245, 245, 245);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.mywork-flex-container-3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+.mywork-box-5 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Nasdaq.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-6 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Parallon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-7 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Healthtrust.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-8 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Conifer.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-9 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Italia.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-10 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/QDVision-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-11 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/Clicktail.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.mywork-box-12 {
+    flex: 1;
+    background-image: url(../Images/Tradeshows/ForRent.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 300px;
+    margin: 5px;      
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*DEVIL MOUNTAIN SECTION*/
+/*************************/
+
+/*************************/
+/*DEVIL MOUNTAIN: Showcase*/
+/*************************/
+
+.picture-3a {
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-forest.jpeg);
+    background-position: bottom;
+    min-height: 40%;
+    margin-bottom: 0;
+}
+
+.picture-3a-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-3a-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.picture-3a-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*DEVIL MOUNTAIN: Slide Content*/
+/*************************/
+
+.dm-flex-container-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.dm-box-1 {
+    flex: 1;
+    order: 1;
+    background-image: url(../Images/Web/DevilMountain-5.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.dm-box-2 {
+    flex: 1;
+    order: 2;
+    background-image: url(../Images/Web/DevilMountain-3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.dm-box-3 {
+    flex: 1;
+    order: 3;
+    background-image: url(../Images/Web/DevilMountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.dm-box-4 {
+    flex: 1;
+    order: 4;
+    background-image: url(../Images/Web/DevilMountain-4.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;  
+    margin: 5px;
+}
+
+/*************************/
+/*DEVIL MOUNTAIN: Main Content*/
+/*************************/
+
+.dm {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 1.6rem;
+}
+
+section#project-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    height: auto;
+    margin: 0 5%;
+}
+
+.project-1-box-1 {
+    flex: 2;
+    order: 1;
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+section#project-1 h3 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#project-1-box-1 p {
+    text-align: left;
+}
+
+.project-1-box-2 {
+    flex: 1;
+    order: 2;
+    flex-basis: 20%;
+    background-color: #666;
+    color: rgb(245, 245, 245);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.project-1-box-2 ul {
+    list-style-type: none;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*WORLD OF TILE SECTION*/
+/*************************/
+
+/*************************/
+/*WORLD OF TILE: Showcase*/
+/*************************/
+
+.picture-3b {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-forest.jpeg);
+    background-position: bottom;
+    min-height: 40%;
+    margin-bottom: 0;
+}
+
+.picture-3b-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-3b-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.highlight {
+    color: rgb(255, 140, 0);
+}
+
+.picture-3b-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*WORLD OF TILE: Slide Content*/
+/*************************/
+
+.wot-flex-container-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.wot-box-1 {
+    flex: 1;
+    order: 1;
+    background-image: url(../Images/Web/WorldofTile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.wot-box-2 {
+    flex: 1;
+    order: 2;
+    background-image: url(../Images/Web/WorldofTile-2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.wot-box-3 {
+    flex: 1;
+    order: 3;
+    background-image: url(../Images/Web/WorldofTileAd-3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;
+}
+
+.wot-box-4 {
+    flex: 1;
+    order: 4;
+    background-image: url(../Images/Web/WorldofTile-3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;     
+}
+
+/*************************/
+/*WORLD OF TILE: Main Content*/
+/*************************/
+
+.wot {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 1.6rem;
+}
+
+section#project-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    height: auto;
+    margin: 0 5%;
+}
+
+.project-2-box-1 {
+    flex: 2;
+    order: 1;
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+section#project-2 h3 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#project-2-box-1 p {
+    text-align: left;
+}
+
+.project-2-box-2 {
+    flex: 1;
+    order: 2;
+    flex-basis: 20%;
+    background-color: #666;
+    color: rgb(245, 245, 245);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.project-2-box-2 ul {
+    list-style-type: none;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*ALARM.COM SECTION*/
+/*************************/
+
+/*************************/
+/*ALARM.COM: Showcase*/
+/*************************/
+
+.picture-3c {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-forest.jpeg);
+    background-position: bottom;
+    min-height: 40%;
+    margin-bottom: 0;
+}
+
+.picture-3c-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-3c-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.highlight {
+    color: rgb(255, 140, 0);
+}
+
+.picture-3c-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*ALARM.COM: Slide Content*/
+/*************************/
+
+.ac-flex-container-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.ac-box-1 {
+    flex: 1;
+    order: 1;
+    background-image: url(../Images/Tradeshows/AlarmCom-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ac-box-2 {
+    flex: 1;
+    order: 2;
+    background-image: url(../Images/Tradeshows/AlarmCom-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ac-box-3 {
+    flex: 1;
+    order: 3;
+    background-image: url(../Images/Tradeshows/AlarmCom-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ac-box-4 {
+    flex: 1;
+    order: 4;
+    background-image: url(../Images/Tradeshows/AlarmCom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;       
+}
+
+/*************************/
+/*ALARM.COM: Main Content*/
+/*************************/
+
+.ac {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 1.6rem;
+}
+
+section#project-3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    height: auto;
+    margin: 0 5%;
+}
+
+.project-3-box-1 {
+    flex: 2;
+    order: 1;
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+section#project-3 h3 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#project-3-box-1 p {
+    text-align: left;
+}
+
+.project-3-box-2 {
+    flex: 1;
+    order: 2;
+    flex-basis: 20%;
+    background-color: #666;
+    color: rgb(245, 245, 245);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.project-3-box-2 ul {
+    list-style-type: none;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*ASTOR GROUP SECTION*/
+/*************************/
+
+/*************************/
+/*ASTOR GROUP: Showcase*/
+/*************************/
+
+.picture-3d {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-forest.jpeg);
+    background-position: bottom;
+    min-height: 40%;
+    margin-bottom: 0;
+}
+
+.picture-3d-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-3d-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.highlight {
+    color: rgb(255, 140, 0);
+}
+
+.picture-3d-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*ASTOR GROUP: Slide Content*/
+/*************************/
+
+.ag-flex-container-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.ag-box-1 {
+    flex: 1;
+    order: 1;
+    background-image: url(../Images/Web/AstorGroup.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ag-box-2 {
+    flex: 1;
+    order: 2;
+    background-image: url(../Images/Web/AstorGroup-1.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ag-box-3 {
+    flex: 1;
+    order: 3;
+    background-image: url(../Images/Web/AstorGroup-2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;   
+}
+
+.ag-box-4 {
+    flex: 1;
+    order: 4;
+    background-image: url(../Images/Web/Astor-Group-3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    min-height: 250px;
+    min-width: 250px;
+    margin: 5px;     
+}
+
+/*************************/
+/*ASTOR GROUP: Main Content*/
+/*************************/
+
+.ag {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 25px 0;
+    font-size: 1.6rem;
+}
+
+section#project-4 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.6rem;
+    height: auto;
+    margin: 0 5%;
+}
+
+.project-4-box-1 {
+    flex: 2;
+    order: 1;
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+section#project-4 h3 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#project-4-box-1 p {
+    text-align: left;
+}
+
+.project-4-box-2 {
+    flex: 1;
+    order: 2;
+    flex-basis: 20%;
+    background-color: #666;
+    color: rgb(245, 245, 245);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.project-4-box-2 ul {
+    list-style-type: none;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*CONTACT PAGE SECTION*/
+/*************************/
+
+/*************************/
+/*CONTACT PAGE: Showcase*/
+/*************************/
+
+.picture-4 {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../Images/Showcase/showcase-road-2.jpeg);
+    min-height: 100%;
+    margin-bottom: 0;
+}
+
+.picture-4-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 60%;
+    text-align: left;
+    padding: 15px;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+    text-transform: uppercase;
+    color: rgb(245, 245, 245);
+    background-color: rgba(102, 102, 102, .3);
+    border: none;
+}
+
+.picture-4-text  {
+    margin: 15px 0;
+    padding-bottom: 10px;
+}
+
+.picture-4-text h1 {
+    margin: 15px 0;
+    padding: 0px 0;
+}
+
+.picture-4-text p {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+/*************************/
+/*CONTACT PAGE: Section-1*/
+/*************************/
+
+.contact-flex-container {
+    display: flex;
+    text-transform: uppercase;
+    margin: 25px;
+    font-size: 1.6rem;
+}
+
+.company-info {
+    flex: 1;
+    order: 1;
+    width: 25%;
+    background-color: rgb(102, 102, 102);
+    color: rgb(245, 245, 245);
+    margin-right: 25px;
+}
+
+.company-info h3, .company-info p {
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.company-info a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+
+.company-info a:hover {
+    color: rgb(255, 140, 0);
+    font-weight: bold;
+}
+
+.company-info p {
+    text-transform: none;
+}
+
+.company-info ul {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    text-transform: none;
+}
+
+.company-info i {
+    font-size: 20px;
+    width: 25px;
+    align-content: center;
+    color: rgb(255, 140, 0);
+    margin: 10px 20px;
+}
+
+/**************************************/
+/* CONTACT: FORM STYLES */
+/**************************************/
+
+.contact {
+    order: 2;
+    width: 60%;
+}
+
+.contact form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact form button, .contact form input, .contact form textarea {
+  width:100%;
+  padding:1em;
+  border:1px solid rgb(102, 102, 102);
+}
+
+.contact form button {
+    background: rgb(102, 102, 102);
+    color: rgb(245, 245, 245);
+    border: 0;
+    text-transform: uppercase;
+}
+
+.contact form button:hover,.contact form button:focus {
+    background: rgb(255, 140, 0);
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    outline: 0;
+    transition: background-color 1s;
+}
+
+/*************************/
+/*PAGE END*/
+/*************************/
+
+/*************************/
+/*MEDIA QUERIES*/
+/*************************/
+
+/*************************/
+/*Media Queries: max-width 1040px*/
+/*homepage*/
+/*************************/
+
+@media(max-width: 1040px) {
+    .contact-flex-container {
+        flex-direction: column;
+    }
+    
+    .company-info {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
+    .company-info h3, .company-info p, .company-info ul, .contact h3 {
+        text-align: center;
+    }
+    
+    .company-info ul {
+        padding-bottom: 20px;
+    }
+}
+
+/*************************/
+/*Media Queries: max-width 1025px*/
+/*homepage*/
+/*************************/
+
+@media (max-width: 1025px) {
+    .mywork-box-1, .mywork-box-2 {
+        background-position: -80px 0;
+    }
+}
+
+/*************************/
+/*Media Queries: max-width 735px*/
+/*homepage*/
+/*************************/
+
+@media(max-width: 735px) {
+    /*HOMEPAGE: Showcase*/
+    .picture-1-text {
+        left: 16%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-size: 2.6rem;
+    }
+
+    .picture-1-text p {
+        line-height: 3rem;
+    }
+    /*HOMEPAGE: Section 1*/
+    .section-1 {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+    }
+        
+    /*ABOUT PAGE: Showcase*/
+    .picture-2-text {
+        left: 16%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-size: 2.6rem;
+    }
+    
+    .picture-2-text p {
+        line-height: 3rem;
+    }
+    /*ABOUT PAGE: Section 3*/
+    .about-picture-2 {
+        background-position: 0;
+    }
+    
+    .about-box-7 li, .about-box-8 li, .about-box-9 li {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.5rem;
+    }
+    
+    /*MY WORK PAGE: Showcase*/
+    .picture-3-text {
+        left: 16%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-size: 2.6rem;
+    }
+    
+    .picture-3-text p {
+        line-height: 3rem;
+    }
+
+    /*MY WORK PAGE: Highlighted Work*/
+    .mywork-flex-container-1 {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 25px;
+        box-sizing: border-box;
+    }
+    
+    .mywork-flex-container-2 {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 30px 25px;
+        box-sizing: border-box;
+    }
+
+    .mywork-box-1 {
+        display: flex;
+        flex: 1;
+        order: 1;
+        margin-bottom: 25px;
+    }
+
+    .mywork-box-2 {
+        display: flex;
+        flex: 1;
+        order: 2;
+        margin: 0;
+    }
+    
+    .mywork-box-3 {
+        display: flex;
+        flex: 1;
+        order: 1;
+        margin-bottom: 25px;
+    }
+    
+    .mywork-box-4 {
+        display: flex;
+        flex: 1;
+        order: 2;
+        margin: 0;
+    }
+    
+    /*Projects: Showcase*/
+    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
+        left: 16%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-size: 2.6rem;
+    }
+    
+    .picture-3a-text p, .picture-3b-text p, .picture-3c-text p, .picture-3d-text p {
+        line-height: 3rem;
+    }
+    /*Projects: Main Content*/
+    section#project-1, section#project-2, section#project-3, section#project-4 {
+        flex-direction: column;
+        font-size: 1.6rem;
+        height: auto;
+        margin: 0 5%;
+    }
+
+    .project-1-box-1, .project-2-box-1, .project-3-box-1, .project-4-box-1 {
+        margin: 0 0 25px 0;
+    }
+    
+    .project-1-box-2 ul, .project-2-box-2 ul, .project-3-box-2 ul, .project-4-box-2 ul {
+        margin-bottom: 25px;   
+    }
+    
+    /*CONTACT: Showcase*/
+    .picture-4-text {
+        left: 16%;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 15px;
+        font-size: 2.6rem;
+    }
+
+    .picture-4-text p {
+        line-height: 3rem;
+    }
+}
+
+/*************************/
+/*Media Queries: max-width 660px*/
+/*homepage*/
+/*************************/
+
+@media(max-width: 660px) {
+    /*Home Page*/
+    .picture-1-text {
+        left: 16%;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    
+    .section-1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    
+    /*ABOUT PAGE: Showcase*/
+    .picture-2-text {
+        left: 16%;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    /*ABOUT PAGE: Section 3*/
+    .about-box-7 li, .about-box-8 li, .about-box-9 li {
+        font-size: 1.4rem;
+        padding: 0 5px;
+    }
+    
+    /*MY WORK PAGE: Showcase*/
+    .picture-3-text {
+        left: 16%;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    
+    /*DEVIL MOUNTAIN: Showcase*/
+    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
+        left: 16%;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+    
+    /*CONTACT: Showcase*/
+    .picture-4-text {
+        left: 16%;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+}
+
+/*************************/
+/*Media Queries: max-width 540px*/
+/*Projects*/
+/*************************/
+
+@media(max-width: 540px) {
+    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
+        top: 20%;
+    }
+}
+
+/*************************/
+/*Media Queries: max-width 425px*/
+/*homepage*/
+/*************************/
+
+@media(max-width: 425px) {
+    .open-slide svg {
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        z-index: 1;
+    }
+    
+    .picture-1-text {
+        width: 100%;
+        left: -3%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .section-1 {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+    
+    /*ABOUT PAGE: Showcase*/
+    .picture-2-text {
+        width: 100%;
+        left: -3%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    /*ABOUT PAGE: Section 3a - PS4 image*/
+    .about-section-3a {
+        background-position: -100 0;
+    }
+    /*ABOUT PAGE: Section 3b - Skills*/
+    .section-3b {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .about-box-7 {
+        order: 1;
+        flex-basis: 100%;
+    }
+    
+    .about-box-8 {
+        order: 2;
+        flex-basis: 100%;
+    }
+    
+    .about-box-9 {
+        order: 3;
+        flex-basis: 100%;
+    }
+    
+    /*MY WORK PAGE: Highlighted Projects*/
+    
+    .picture-3-text {
+        width: 100%;
+        left: -3%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .mywork-flex-container-1, .mywork-flex-container-2 {
+        margin: 0 10px 25px 10px;
+    }
+    
+    .mywork-box-1, .mywork-box-2 {
+        background-position: -95 0;
+    }
+    
+    /*Projects: Showcase*/
+    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
+        width: 100%;
+        left: -3%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    /*CONTACT: Showcase*/
+    .picture-4-text {
+        width: 100%;
+        left: -3%;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
