@@ -1834,10 +1834,11 @@ section#project-4 h3 {
     }
     
     .picture-1-text {
-        width: 100%;
+        width: 95%;
         left: -3%;
         font-size: 2rem;
         line-height: 3rem;
+        overflow-x: hidden;
     }
     
     .section-1 {
@@ -1847,7 +1848,7 @@ section#project-4 h3 {
     
     /*ABOUT PAGE: Showcase*/
     .picture-2-text {
-        width: 100%;
+        width: 95%;
         left: -3%;
         font-size: 2rem;
         line-height: 3rem;
@@ -1881,7 +1882,7 @@ section#project-4 h3 {
     /*MY WORK PAGE: Highlighted Projects*/
     
     .picture-3-text {
-        width: 100%;
+        width: 95%;
         left: -3%;
         font-size: 2rem;
         line-height: 3rem;
@@ -1897,7 +1898,7 @@ section#project-4 h3 {
     
     /*Projects: Showcase*/
     .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
-        width: 100%;
+        width: 95%;
         left: -3%;
         font-size: 2rem;
         line-height: 3rem;
@@ -1905,7 +1906,7 @@ section#project-4 h3 {
     
     /*CONTACT: Showcase*/
     .picture-4-text {
-        width: 100%;
+        width: 95%;
         left: -3%;
         font-size: 2rem;
         line-height: 3rem;
