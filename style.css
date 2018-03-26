@@ -1431,7 +1431,7 @@ section#project-4 h3 {
 
 .picture-4 {
     position: relative;
-    opacity: 0.75;
+    opacity: 0.9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1478,21 +1478,24 @@ section#project-4 h3 {
 .contact-flex-container {
     display: flex;
     text-transform: uppercase;
-    margin: 25px;
-    font-size: 1.6rem;
+    margin: 0;
+    font-size: 1.8rem;
 }
 
 .company-info {
-    flex: 1;
-    order: 1;
-    width: 25%;
+    flex: 2;
+    flex-direction: column;
+    order: 2;
+    width: 100%;
+    height: auto;
     background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
-    margin-right: 25px;
+    margin: 25px 25px 0px 0;
+    padding-top: 25px;
+    text-align: center;
 }
 
 .company-info h3, .company-info p {
-    text-align: left;
     margin: 10px 20px;
 }
 
@@ -1525,39 +1528,18 @@ section#project-4 h3 {
     margin: 10px 20px;
 }
 
-/**************************************/
-/* CONTACT: FORM STYLES */
-/**************************************/
-
-.contact {
-    order: 2;
-    width: 60%;
-}
-
-.contact form label {
-    display: block;
-    margin: 10px 0;
-}
-
-.contact form button, .contact form input, .contact form textarea {
-  width:100%;
-  padding:1em;
-  border:1px solid rgb(102, 102, 102);
-}
-
-.contact form button {
-    background: rgb(102, 102, 102);
-    color: rgb(245, 245, 245);
-    border: 0;
-    text-transform: uppercase;
-}
-
-.contact form button:hover,.contact form button:focus {
-    background: rgb(255, 140, 0);
-    color: rgb(245, 245, 245);
-    font-weight: bold;
-    outline: 0;
-    transition: background-color 1s;
+.contact-info-image {
+    display: flex;
+    flex: 1;
+    order: 1;
+    background-image: url("images/About/Profile.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
+    margin: 25px 25px 0;
+    padding: 0;
 }
 
 /*************************/
@@ -1567,34 +1549,6 @@ section#project-4 h3 {
 /*************************/
 /*MEDIA QUERIES*/
 /*************************/
-
-/*************************/
-/*Media Queries: max-width 1040px*/
-/*homepage*/
-/*************************/
-
-@media(max-width: 1040px) {
-    .contact-flex-container {
-        flex-direction: column;
-    }
-    
-    .company-info {
-        width: 100%;
-        margin: 20px 0;
-    }
-    
-    .contact {
-        width: 100%;
-    }
-    
-    .company-info h3, .company-info p, .company-info ul, .contact h3 {
-        text-align: center;
-    }
-    
-    .company-info ul {
-        padding-bottom: 20px;
-    }
-}
 
 /*************************/
 /*Media Queries: max-width 1025px*/
@@ -1755,6 +1709,21 @@ section#project-4 h3 {
     .picture-4-text p {
         line-height: 3rem;
     }
+    
+    .contact-info-image {
+        align-self: center;
+    }
+    
+    .company-info {
+        width: 100%;
+        margin: 25px 25px 0 0;
+        font-size: 1.6rem;
+    }
+    
+    .company-info ul {
+        padding-bottom: 20px;
+    }
+
 }
 
 /*************************/
@@ -1806,6 +1775,15 @@ section#project-4 h3 {
         left: 16%;
         font-size: 2.4rem;
         line-height: 3.2rem;
+    }
+    
+    .contact-flex-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    
+    .contact-info-image {
+        width: 350px;
     }
 }
 
