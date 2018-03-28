@@ -90,7 +90,6 @@ html, body {
     background-image: url("Images/Showcase/showcase-road.jpeg");
     min-height: 100%;
     margin-bottom: 0;
-    image-rendering: -webkit-optimize-contrast;
 }
 
 .picture-1-text {
