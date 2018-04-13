@@ -1442,6 +1442,14 @@ section#showcase-4 {
 /*************************/
 
 /*************************/
+@media(max-width: 1125px) {
+    /*About*/
+    .about-picture {
+        background-position: center;
+    }
+}
+
+/*************************/
 @media(max-width: 770px) {
 /*Global*/
     section#showcase,/*Homepage*/
@@ -1451,7 +1459,9 @@ section#showcase-4 {
     section#showcase-3b,/*World of Tile*/
     section#showcase-3c,/*Alarm.com*/
     section#showcase-3d,/*Astor Group*/
-    section#showcase-4/*Contact*/ {
+    section#showcase-4,/*Contact*/
+    .about-picture,/*About*/
+    .about-section-3a/*About*/ {
         background-attachment: scroll;
     }
 }
