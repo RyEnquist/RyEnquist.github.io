@@ -1593,7 +1593,7 @@ section#showcase-4 {
 }
 
 /*************************/
-@media(max-width: 425px) {
+@media(min-width: 425px) {
     /*Global*/
     .picture-1-text,/*Homepage*/ 
     .picture-2-text,/*About*/
