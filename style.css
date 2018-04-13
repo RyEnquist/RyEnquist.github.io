@@ -9,12 +9,10 @@
 
 html, body {
     height: 100%;
-    margin: 0;
     font-size: 10px;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 400;
     line-height: 2.8rem;
-    color: #666;
+    color: rgb(102, 102, 102);
     background-color: rgb(245, 245, 245);
 }
 
@@ -23,11 +21,11 @@ html, body {
 /*************************/
 
 .open-slide svg {
-        position: absolute;
-        top: 3%;
-        right: 3%;
-        z-index: 1;
-    }
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    z-index: 1;
+}
 
 .side-nav {
     height: 100%;
@@ -36,15 +34,15 @@ html, body {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgb(17, 17, 17);
     opacity: 0.9;
     overflow-x: hidden;
-    padding-top: 50px;
+    padding-top: 7rem;
     transition: 0.5s;
 }
 
 .side-nav a {
-    padding: 10px 20px 10px 20px;
+    padding: 1rem 2rem;
     text-decoration: none;
     font-size: 2.2rem;
     color: rgb(245, 245, 245);
@@ -63,8 +61,8 @@ html, body {
 .side-nav .btn-close {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 35px;
+    right: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .current {
@@ -73,14 +71,10 @@ html, body {
 }
 
 /*************************/
-/*HOME PAGE SECTION*/
-/*************************/
-
-/*************************/
 /*HOME PAGE: Showcase*/
 /*************************/
 
-.picture-1 {
+section#showcase {
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -98,7 +92,7 @@ html, body {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -108,8 +102,7 @@ html, body {
 }
 
 .picture-1-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .highlight {
@@ -117,8 +110,7 @@ html, body {
 }
 
 .picture-1-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -131,7 +123,7 @@ html, body {
     text-transform: uppercase;
     align-items: center;
     justify-content: center;
-    min-height: 300px;
+    min-height: 30rem;
 }
 
 .box-1 {
@@ -140,11 +132,11 @@ html, body {
 }
 
 .section-1 h2, .section-1 p {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .section-1 h2 {
-    margin-top: 35px;
+    margin-top: 2.5rem;
 }
 
 /*************************/
@@ -161,23 +153,23 @@ html, body {
     font-size: 1.6rem;
     align-items: center;
     justify-content: space-around;
-    min-height: 300px;
+    min-height: 30rem;
 }
 
 .box-2, .box-3, .box-4 {
     flex-basis: 20%;
-    min-width: 340px;
+    min-width: 34rem;
     text-align: center;
-    padding: 25px;
+    padding: 2.5rem;
 }
 
 .box-2 h3, .box-3 h3, .box-4 h3 {
-    padding: 15px;
+    padding: 1.5rem;
     text-transform: uppercase;
 }
 
 .box-2 i, .box-3 i, .box-4 i {
-    font-size: 50px;
+    font-size: 5rem;
     color: rgb(255, 140, 0);
 }
 
@@ -199,9 +191,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-6 {
@@ -210,9 +202,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-7 {
@@ -221,9 +213,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-8 {
@@ -232,9 +224,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-9 {
@@ -243,9 +235,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-10 {
@@ -254,9 +246,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-11 {
@@ -265,9 +257,9 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .box-12 {
@@ -276,13 +268,13 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 /*************************/
-/*HOME PAGE: Footer*/
+/*FOOTER*/
 /*************************/
 
 footer {
@@ -290,30 +282,17 @@ footer {
     justify-content: center;
     align-content: center;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 2.5rem 0;
     background: rgb(245, 245, 245);
     text-align: center;
-}
-
-footer p {
-    text-align: center;
-    font-family: Helvetica Neue, sans-serif;
     font-size: 1.2rem;
 }
 
 /*************************/
-/*PAGE END*/
+/*ABOUT PAGE: Showcase*/
 /*************************/
 
-/*************************/
-/*ABOUT PAGE SECTION*/
-/*************************/
-
-/*************************/
-/*About PAGE: Showcase*/
-/*************************/
-
-.picture-2 {
+#showcase-2 {
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -322,7 +301,6 @@ footer p {
     background-attachment: fixed;
     background-image: url("Images/About/Profile-BBall.JPG");
     min-height: 100%;
-    margin-bottom: 0;
 }
 
 .picture-2-text {
@@ -331,7 +309,7 @@ footer p {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -341,13 +319,11 @@ footer p {
 }
 
 .picture-2-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .picture-2-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -368,11 +344,11 @@ footer p {
 }
 
 .about-section-1 h2, .about-section-1 p {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .about-section-1 h2 {
-    margin-top: 35px;
+    margin-top: 3.5rem;
     text-transform: uppercase;
 }
 
@@ -382,30 +358,30 @@ footer p {
 
 .about-section-2 {
     display: flex;
+    min-height: 100%;
 }
 
-.about-picture-2 {
+.about-picture {
     flex: 1;
     background-image: url("Images/About/Profile-Bridge.JPG");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -500px;
+    background-position: 0px -50rem;
     background-attachment: fixed;
-    min-height: 100%;
 }
 
 /*************************/
 /*ABOUT PAGE: Section-3*/
 /*************************/
 
-.about-box-5, .about-box-6 {
-    margin: 25px 0;
+.about-box-2, .about-box-3 {
+    margin: 2.5rem 0;
     text-align: center;
     font-size: 1.6rem;
 }
 
-.about-box-5 h2, .about-box-6 h2 {
-    margin-bottom: 25px;
+.about-box-2 h2, .about-box-3 h2 {
+    margin-bottom: 2.5rem;
     text-transform: uppercase;
 }
 
@@ -417,15 +393,11 @@ footer p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
-}
-
-.about-section-3a {
     background-image: url("Images/Showcase/showcase-ps4.jpeg");
-    min-height: 400px;
-    margin-bottom: 0;
+    min-height: 40rem;
 }
 
-.section-3b {
+.about-section-3b {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -433,46 +405,36 @@ footer p {
     color: rgb(245, 245, 245);
 }
 
-.about-box-7, .about-box-8, .about-box-9 {
+.about-box-4, .about-box-5, .about-box-6 {
     flex: 1;
     width: 33%;
     height: auto;
-    margin-top: 25px;
+    margin-top: 2.5rem;
     text-align: center;
     font-size: 1.6rem;
 }
 
-.about-box-7 h3, .about-box-8 h3, .about-box-9 h3 {
-    margin-bottom: 20px;
+.about-box-4 h3, .about-box-5 h3, .about-box-6 h3 {
+    margin-bottom: 2rem;
     text-transform: uppercase
 }
 
-.about-box-7 ul, .about-box-8 ul, .about-box-9 ul {
+.about-box-4 ul, .about-box-5 ul, .about-box-6 ul {
     list-style-type: none;
     padding-bottom: 25px;
-    margin: 0;
 }
     
-.about-box-7 i, .about-box-8 i, .about-box-9 i {
-    padding: 10px;
-    margin: 0;
-    font-size: 30px;
+.about-box-4 i, .about-box-5 i, .about-box-6 i {
+    padding: 1rem;
+    font-size: 3rem;
     color: rgb(255, 140, 0);
 }
-
-/*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*MY WORK PAGE SECTION*/
-/*************************/
 
 /*************************/
 /*MY WORK PAGE: Showcase*/
 /*************************/
 
-.picture-3 {
+#showcase-3 {
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -481,7 +443,6 @@ footer p {
     background-attachment: fixed;
     background-image: url("Images/Showcase/showcase-forest.jpeg");
     min-height: 100%;
-    margin-bottom: 0;
 }
 
 .picture-3-text {
@@ -490,7 +451,7 @@ footer p {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -500,18 +461,15 @@ footer p {
 }
 
 .picture-3-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .picture-3-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
 /*MY WORK PAGE: Section-1*/
-/*Content Heading*/
 /*************************/
 
 .mywork-section-1 {
@@ -529,29 +487,28 @@ footer p {
     width: 100%;
 }
 
-.mywork-section-1 h2, .mywork-section-1 p {
-    margin-bottom: 25px;
+.mywork-section-1 p {
+    margin-bottom: 2.5rem;
 }
 
 .mywork-section-1 h2 {
-    margin-top: 25px;
+    margin-top: 2.5rem;
     text-transform: uppercase;
 }
 
 /*************************/
 /*MY WORK PAGE: Section-2*/
-/*Image Gallery*/
 /*************************/
 
 .mywork-flex-container-1 {
     display: flex;
-    margin: 0px 30px;
+    margin: 0 3rem;
     box-sizing: border-box;
 }
 
 .mywork-flex-container-2 {
     display: flex;
-    margin: 50px 30px;
+    margin: 5rem 3rem;
     box-sizing: border-box;
 }
 
@@ -561,10 +518,10 @@ footer p {
     background-image: url("Images/Web/DevilMountain.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -80px 0;
-    min-height: 400px;
-    border: 1px solid #666;
-    margin-right: 25px;
+    background-position: -8rem 0;
+    min-height: 40rem;
+    border: .1rem solid #666;
+    margin-right: 2.5rem;
     width: 100%;
 }
 
@@ -574,11 +531,11 @@ footer p {
     background-image: url("Images/Web/WorldofTile.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -80px 0;
-    min-height: 400px;
+    background-position: -8rem 0;
+    min-height: 40rem;
     width: 100%;
-    border: 1px solid #666;
-    margin-left: 25px;
+    border: .1rem; solid #666;
+    margin-left: 2.5rem;
 }
 
 .mywork-box-3 {
@@ -588,10 +545,10 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 400px;
-    border: 1px solid #666;
+    min-height: 40rem;
+    border: .1rem solid #666;
     width: 100%;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 .mywork-box-4 {
@@ -601,10 +558,10 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 400px;
-    border: 1px solid #666;
+    min-height: 40rem;
+    border: .1rem solid #666;
     width: 100%;
-    margin-left: 25px;
+    margin-left: 2.5rem;
 }
 
 
@@ -633,21 +590,20 @@ footer p {
 
 /*************************/
 /*MY WORK PAGE: Section-3*/
-/*Other Gallery*/
 /*************************/
 
 .mywork-section-3 {
     background-color: rgb(102, 102, 102);
     font-size: 1.6rem;
     height: auto;
-    padding-bottom: 25px;
+    padding-bottom: 2.5rem;
 }
 
 .mywork-section-3 h2 {
     color: rgb(245, 245, 245);
     text-transform: uppercase;
     text-align: center;
-    padding: 25px 0;
+    padding: 2.5rem 0;
 }
 
 .mywork-flex-container-3 {
@@ -663,9 +619,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-6 {
@@ -674,9 +630,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-7 {
@@ -685,9 +641,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-8 {
@@ -696,9 +652,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-9 {
@@ -707,9 +663,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-10 {
@@ -718,9 +674,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-11 {
@@ -729,9 +685,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
 
 .mywork-box-12 {
@@ -740,24 +696,16 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 300px;
-    margin: 5px;      
+    min-height: 25rem;
+    min-width: 30rem;
+    margin: .5rem;
 }
-
-/*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*DEVIL MOUNTAIN SECTION*/
-/*************************/
 
 /*************************/
 /*DEVIL MOUNTAIN: Showcase*/
 /*************************/
 
-.picture-3a {
+section#showcase-3a {
     position: relative;
     opacity: 0.9;
     background-position: center;
@@ -767,7 +715,6 @@ footer p {
     background-image: url("Images/Showcase/showcase-forest.jpeg");
     background-position: bottom;
     min-height: 40%;
-    margin-bottom: 0;
 }
 
 .picture-3a-text {
@@ -776,7 +723,7 @@ footer p {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -786,13 +733,11 @@ footer p {
 }
 
 .picture-3a-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .picture-3a-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -804,7 +749,7 @@ footer p {
     align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .dm-box-1 {
@@ -814,9 +759,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .dm-box-2 {
@@ -826,9 +771,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .dm-box-3 {
@@ -838,9 +783,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .dm-box-4 {
@@ -850,9 +795,9 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;  
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;  
+    margin: .5rem;
 }
 
 /*************************/
@@ -865,7 +810,7 @@ footer p {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    margin: 25px 0;
+    margin: 2.5rem 0;
     font-size: 1.6rem;
 }
 
@@ -882,11 +827,11 @@ section#project-1 {
     flex: 2;
     order: 1;
     flex-basis: 50%;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 section#project-1 h3 {
-    margin: 25px 0;
+    margin: 2.5rem 0;
     text-transform: uppercase;
     text-align: center;
 }
@@ -899,7 +844,7 @@ section#project-1 h3 {
     flex: 1;
     order: 2;
     flex-basis: 20%;
-    background-color: #666;
+    background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
     justify-content: center;
     align-content: center;
@@ -911,18 +856,10 @@ section#project-1 h3 {
 }
 
 /*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*WORLD OF TILE SECTION*/
-/*************************/
-
-/*************************/
 /*WORLD OF TILE: Showcase*/
 /*************************/
 
-.picture-3b {
+section#showcase-3b {
     position: relative;
     opacity: .9;
     background-position: center;
@@ -932,7 +869,6 @@ section#project-1 h3 {
     background-image: url("Images/Showcase/showcase-forest.jpeg");
     background-position: bottom;
     min-height: 40%;
-    margin-bottom: 0;
 }
 
 .picture-3b-text {
@@ -941,7 +877,7 @@ section#project-1 h3 {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -951,8 +887,7 @@ section#project-1 h3 {
 }
 
 .picture-3b-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .highlight {
@@ -960,8 +895,7 @@ section#project-1 h3 {
 }
 
 .picture-3b-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -973,7 +907,7 @@ section#project-1 h3 {
     align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-top: 20px;
+    margin-top: 2rem;;
 }
 
 .wot-box-1 {
@@ -983,9 +917,9 @@ section#project-1 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .wot-box-2 {
@@ -995,9 +929,9 @@ section#project-1 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .wot-box-3 {
@@ -1007,9 +941,9 @@ section#project-1 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;
 }
 
 .wot-box-4 {
@@ -1019,9 +953,9 @@ section#project-1 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;     
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;  
 }
 
 /*************************/
@@ -1034,7 +968,7 @@ section#project-1 h3 {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    margin: 25px 0;
+    margin: 2.5rem 0;
     font-size: 1.6rem;
 }
 
@@ -1051,11 +985,11 @@ section#project-2 {
     flex: 2;
     order: 1;
     flex-basis: 50%;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 section#project-2 h3 {
-    margin: 25px 0;
+    margin: 2.5rem 0;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1068,7 +1002,7 @@ section#project-2 h3 {
     flex: 1;
     order: 2;
     flex-basis: 20%;
-    background-color: #666;
+    background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
     justify-content: center;
     align-content: center;
@@ -1080,18 +1014,10 @@ section#project-2 h3 {
 }
 
 /*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*ALARM.COM SECTION*/
-/*************************/
-
-/*************************/
 /*ALARM.COM: Showcase*/
 /*************************/
 
-.picture-3c {
+section#showcase-3c {
     position: relative;
     opacity: .9;
     background-position: center;
@@ -1110,7 +1036,7 @@ section#project-2 h3 {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -1120,8 +1046,7 @@ section#project-2 h3 {
 }
 
 .picture-3c-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .highlight {
@@ -1129,8 +1054,7 @@ section#project-2 h3 {
 }
 
 .picture-3c-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -1142,7 +1066,7 @@ section#project-2 h3 {
     align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .ac-box-1 {
@@ -1152,9 +1076,9 @@ section#project-2 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;   
 }
 
 .ac-box-2 {
@@ -1164,9 +1088,9 @@ section#project-2 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;  
 }
 
 .ac-box-3 {
@@ -1176,9 +1100,9 @@ section#project-2 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;   
 }
 
 .ac-box-4 {
@@ -1188,9 +1112,9 @@ section#project-2 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;       
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;       
 }
 
 /*************************/
@@ -1203,7 +1127,7 @@ section#project-2 h3 {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    margin: 25px 0;
+    margin: 2.5rem 0;
     font-size: 1.6rem;
 }
 
@@ -1220,11 +1144,11 @@ section#project-3 {
     flex: 2;
     order: 1;
     flex-basis: 50%;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 section#project-3 h3 {
-    margin: 25px 0;
+    margin: 2.5rem 0;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1237,7 +1161,7 @@ section#project-3 h3 {
     flex: 1;
     order: 2;
     flex-basis: 20%;
-    background-color: #666;
+    background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
     justify-content: center;
     align-content: center;
@@ -1249,18 +1173,10 @@ section#project-3 h3 {
 }
 
 /*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*ASTOR GROUP SECTION*/
-/*************************/
-
-/*************************/
 /*ASTOR GROUP: Showcase*/
 /*************************/
 
-.picture-3d {
+section#showcase-3d {
     position: relative;
     opacity: .9;
     background-position: center;
@@ -1270,7 +1186,6 @@ section#project-3 h3 {
     background-image: url("Images/Showcase/showcase-forest.jpeg");
     background-position: bottom;
     min-height: 40%;
-    margin-bottom: 0;
 }
 
 .picture-3d-text {
@@ -1279,7 +1194,7 @@ section#project-3 h3 {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -1289,8 +1204,7 @@ section#project-3 h3 {
 }
 
 .picture-3d-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .highlight {
@@ -1298,8 +1212,7 @@ section#project-3 h3 {
 }
 
 .picture-3d-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -1311,7 +1224,7 @@ section#project-3 h3 {
     align-items: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .ag-box-1 {
@@ -1321,9 +1234,9 @@ section#project-3 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;   
 }
 
 .ag-box-2 {
@@ -1333,9 +1246,9 @@ section#project-3 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;    
 }
 
 .ag-box-3 {
@@ -1345,9 +1258,9 @@ section#project-3 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;   
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;     
 }
 
 .ag-box-4 {
@@ -1357,9 +1270,9 @@ section#project-3 h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    min-height: 250px;
-    min-width: 250px;
-    margin: 5px;     
+    min-height: 25rem;
+    min-width: 25rem;
+    margin: .5rem;      
 }
 
 /*************************/
@@ -1372,7 +1285,7 @@ section#project-3 h3 {
     align-content: center;
     justify-content: center;
     text-transform: uppercase;
-    margin: 25px 0;
+    margin: 2.5rem 0;
     font-size: 1.6rem;
 }
 
@@ -1389,11 +1302,11 @@ section#project-4 {
     flex: 2;
     order: 1;
     flex-basis: 50%;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 section#project-4 h3 {
-    margin: 25px 0;
+    margin: 2.5rem 0;
     text-transform: uppercase;
     text-align: center;
 }
@@ -1418,27 +1331,18 @@ section#project-4 h3 {
 }
 
 /*************************/
-/*PAGE END*/
-/*************************/
-
-/*************************/
-/*CONTACT PAGE SECTION*/
-/*************************/
-
-/*************************/
 /*CONTACT PAGE: Showcase*/
 /*************************/
 
-.picture-4 {
+section#showcase-4 {
     position: relative;
     opacity: 0.9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("Images/Showcase/showcase-road-2.jpeg");
+    background-image: url("Images/Showcase/showcase-craterlake.jpg");
     min-height: 100%;
-    margin-bottom: 0;
 }
 
 .picture-4-text {
@@ -1447,7 +1351,7 @@ section#project-4 h3 {
     left: 0;
     width: 60%;
     text-align: left;
-    padding: 15px;
+    padding: 1.5rem;
     font-size: 2.7rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
@@ -1456,19 +1360,12 @@ section#project-4 h3 {
     border: none;
 }
 
-.picture-4-text  {
-    margin: 15px 0;
-    padding-bottom: 10px;
-}
-
 .picture-4-text h1 {
-    margin: 15px 0;
-    padding: 0px 0;
+    margin: 1.5rem 0;
 }
 
 .picture-4-text p {
-    margin-bottom: 15px;
-    padding: 0;
+    margin-bottom: 1.5rem;
 }
 
 /*************************/
@@ -1478,7 +1375,6 @@ section#project-4 h3 {
 .contact-flex-container {
     display: flex;
     text-transform: uppercase;
-    margin: 0;
     font-size: 1.8rem;
 }
 
@@ -1490,13 +1386,13 @@ section#project-4 h3 {
     height: auto;
     background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
-    margin: 25px 25px 0px 0;
-    padding-top: 25px;
+    margin: 2.5rem 2.5rem 0 0;
+    padding-top: 2.5rem;
     text-align: center;
 }
 
 .company-info h3, .company-info p {
-    margin: 10px 20px;
+    margin: 1rem 2rem;
 }
 
 .company-info a {
@@ -1516,16 +1412,16 @@ section#project-4 h3 {
 .company-info ul {
     text-decoration: none;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 2rem;
     text-transform: none;
 }
 
 .company-info i {
-    font-size: 20px;
-    width: 25px;
+    font-size: 2rem;
+    width: 2.5rem;
     align-content: center;
     color: rgb(255, 140, 0);
-    margin: 10px 20px;
+    margin: 1rem 2rem;
 }
 
 .contact-info-image {
@@ -1537,356 +1433,225 @@ section#project-4 h3 {
     background-position: center;
     background-size: cover;
     width: 100%;
-    min-height: 400px;
-    margin: 25px 25px 0;
-    padding: 0;
+    min-height: 40rem;
+    margin: 2.5rem 2.5rem 0;
 }
-
-/*************************/
-/*PAGE END*/
-/*************************/
 
 /*************************/
 /*MEDIA QUERIES*/
 /*************************/
 
 /*************************/
-/*Media Queries: max-width 1025px*/
-/*homepage*/
-/*************************/
-
-@media (max-width: 1025px) {
-    .mywork-box-1, .mywork-box-2 {
-        background-position: -80px 0;
-    }
-}
-
-/*************************/
-/*Media Queries: max-width 735px*/
-/*homepage*/
-/*************************/
-
 @media(max-width: 735px) {
-    /*HOMEPAGE: Showcase*/
-    .picture-1-text {
+    /*Global*/
+    .picture-1-text,/*Homepage*/
+    .picture-2-text,/*About*/
+    .picture-3-text,/*MyWork*/
+    .picture-4-text/*Contact*/ {
         left: 16%;
         text-align: center;
         justify-content: center;
         align-content: center;
-        padding: 15px;
+        padding: 1.5rem;
         font-size: 2.6rem;
-    }
-
-    .picture-1-text p {
         line-height: 3rem;
-    }
-    /*HOMEPAGE: Section 1*/
-    .section-1 {
-        font-size: 2.4rem;
-        line-height: 2.8rem;
-    }
-        
-    /*ABOUT PAGE: Showcase*/
-    .picture-2-text {
-        left: 16%;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        padding: 15px;
-        font-size: 2.6rem;
     }
     
-    .picture-2-text p {
-        line-height: 3rem;
+    /*Homepage*/
+    .section-1 {
+        font-size: 2.4rem;
     }
-    /*ABOUT PAGE: Section 3*/
-    .about-picture-2 {
+    
+    /*About*/
+    .about-picture {
         background-position: 0;
     }
     
-    .about-box-7 li, .about-box-8 li, .about-box-9 li {
-        padding-left: 10px;
-        padding-right: 10px;
+    .about-box-4 li, 
+    .about-box-5 li, 
+    .about-box-6 li {
         font-size: 1.5rem;
     }
     
-    /*MY WORK PAGE: Showcase*/
-    .picture-3-text {
-        left: 16%;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        padding: 15px;
-        font-size: 2.6rem;
-    }
-    
-    .picture-3-text p {
-        line-height: 3rem;
-    }
-
-    /*MY WORK PAGE: Highlighted Work*/
-    .mywork-flex-container-1 {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 30px 25px;
-        box-sizing: border-box;
-    }
-    
+    /*MyWork*/
+    .mywork-flex-container-1,
     .mywork-flex-container-2 {
         display: flex;
         flex-direction: column;
-        margin: 0px 30px 25px;
+        margin: 0 2.5rem 2.5rem;
         box-sizing: border-box;
     }
 
     .mywork-box-1 {
-        display: flex;
         flex: 1;
-        order: 1;
-        margin-bottom: 25px;
+        order: 1, 2;
+        margin-bottom: 2.5rem;
     }
 
     .mywork-box-2 {
-        display: flex;
         flex: 1;
         order: 2;
         margin: 0;
     }
     
     .mywork-box-3 {
-        display: flex;
         flex: 1;
         order: 1;
-        margin-bottom: 25px;
+        margin-bottom: 2.5rem;
     }
     
     .mywork-box-4 {
-        display: flex;
         flex: 1;
         order: 2;
         margin: 0;
     }
     
-    /*Projects: Showcase*/
-    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
+    /*MyWork: Main Projects*/
+    .picture-3a-text,/*Devil Mountain*/ 
+    .picture-3b-text,/*World of Tile*/
+    .picture-3c-text,/*Alarm.com*/
+    .picture-3d-text/*Astor Group*/ {
         left: 16%;
         text-align: center;
         justify-content: center;
         align-content: center;
-        padding: 15px;
+        padding: 1.5rem;
         font-size: 2.6rem;
     }
     
-    .picture-3a-text p, .picture-3b-text p, .picture-3c-text p, .picture-3d-text p {
-        line-height: 3rem;
-    }
-    /*Projects: Main Content*/
-    section#project-1, section#project-2, section#project-3, section#project-4 {
+    section#project-1,/*Devil Mountain*/
+    section#project-2,/*World of Tile*/
+    section#project-3,/*Alarm.com*/
+    section#project-4/*Astor Group*/ {
         flex-direction: column;
         font-size: 1.6rem;
         height: auto;
         margin: 0 5%;
     }
 
-    .project-1-box-1, .project-2-box-1, .project-3-box-1, .project-4-box-1 {
-        margin: 0 0 25px 0;
+    .project-1-box-1,/*Devil Mountain*/ 
+    .project-2-box-1,/*World of Tile*/ 
+    .project-3-box-1,/*Alarm.com*/ 
+    .project-4-box-1,/*Astor Group*/
+    .project-1-box-2 ul,/*Devil Mountain*/ 
+    .project-2-box-2 ul,/*World of Tile*/ 
+    .project-3-box-2 ul,/*Alarm.com*/ 
+    .project-4-box-2 ul/*Astor Group*/ {
+        margin: 0 0 2.5rem 0;
     }
     
-    .project-1-box-2 ul, .project-2-box-2 ul, .project-3-box-2 ul, .project-4-box-2 ul {
-        margin-bottom: 25px;   
-    }
-    
-    /*CONTACT: Showcase*/
-    .picture-4-text {
-        left: 16%;
-        text-align: center;
-        justify-content: center;
-        align-content: center;
-        padding: 15px;
-        font-size: 2.6rem;
-    }
-
-    .picture-4-text p {
-        line-height: 3rem;
-    }
-    
+    /*Contact*/
     .contact-info-image {
         align-self: center;
     }
     
     .company-info {
         width: 100%;
-        margin: 25px 25px 0 0;
+        margin: 2.5rem 2.5rem 0 0;
         font-size: 1.6rem;
     }
     
     .company-info ul {
-        padding-bottom: 20px;
+        padding-bottom: 2rem;
     }
-
 }
 
 /*************************/
-/*Media Queries: max-width 660px*/
-/*homepage*/
-/*************************/
-
 @media(max-width: 660px) {
-    /*Home Page*/
-    .picture-1-text {
+    /*Global*/
+    .picture-1-text,/*Homepage*/
+    .picture-2-text,/*About*/
+    .picture-3-text,/*MyWork*/
+    .picture-4-text,/*Contact*/
+    .picture-3a-text,/*Devil Mountain*/ 
+    .picture-3b-text,/*World of Tile*/ 
+    .picture-3c-text,/*Alarm.com*/ 
+    .picture-3d-text/*Astor Group*/{
         left: 16%;
         font-size: 2.4rem;
-        line-height: 3.2rem;
     }
     
+    /*Homepage*/
     .section-1 {
         font-size: 2.2rem;
-        line-height: 3rem;
     }
     
-    /*ABOUT PAGE: Showcase*/
-    .picture-2-text {
-        left: 16%;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
-    /*ABOUT PAGE: Section 3*/
-    .about-box-7 li, .about-box-8 li, .about-box-9 li {
+    /*About*/
+    .about-box-4 li, .about-box-5 li, .about-box-6 li {
         font-size: 1.4rem;
-        padding: 0 5px;
     }
     
-    /*MY WORK PAGE: Showcase*/
-    .picture-3-text {
-        left: 16%;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
-    
-    /*DEVIL MOUNTAIN: Showcase*/
-    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
-        left: 16%;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
-    
-    /*CONTACT: Showcase*/
-    .picture-4-text {
-        left: 16%;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
-    
+    /*Contact*/
     .contact-flex-container {
         flex-direction: column;
-        margin: 0 20px;
+        margin: 0 2rem;
     }
     
     .contact-info-image {
-        width: 350px;
+        width: 35rem;
     }
 }
 
 /*************************/
-/*Media Queries: max-width 540px*/
-/*Projects*/
-/*************************/
-
-@media(max-width: 540px) {
-    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
-        top: 20%;
-    }
-}
-
-/*************************/
-/*Media Queries: max-width 425px*/
-/*homepage*/
-/*************************/
-
 @media(max-width: 425px) {
-    .open-slide svg {
-        position: absolute;
-        top: 3%;
-        right: 3%;
-        z-index: 1;
-    }
-    
-    .picture-1-text {
-        width: 95%;
-        left: -3%;
+    /*Global*/
+    .picture-1-text,/*Homepage*/ 
+    .picture-2-text,/*About*/
+    .picture-3-text,/*MyWork*/
+    .picture-4-text,/*Contact*/
+    .picture-3a-text,/*Devil Mountain*/
+    .picture-3b-text,/*World of Tile*/
+    .picture-3c-text,/*Alarm.com*/ 
+    .picture-3d-text/*Astor Group*/ {
         font-size: 2rem;
-        line-height: 3rem;
-        overflow-x: hidden;
+        width: 100%;
+        left: 0;
+        margin: 0;
+        padding: 0;
     }
     
+    /*Homepage*/
     .section-1 {
         font-size: 1.8rem;
-        line-height: 2.6rem;
     }
     
-    /*ABOUT PAGE: Showcase*/
-    .picture-2-text {
-        width: 95%;
-        left: -3%;
-        font-size: 2rem;
-        line-height: 3rem;
+    .box-2, .box-3, .box-4 {
+        min-width: 30rem;
+        padding: 2.5rem 0;
     }
-    /*ABOUT PAGE: Section 3a - PS4 image*/
+    
+    /*About*/
     .about-section-3a {
-        background-position: -100 0;
+        background-position: left;
     }
-    /*ABOUT PAGE: Section 3b - Skills*/
-    .section-3b {
+    
+    .about-section-3b {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
     
-    .about-box-7 {
+    .about-box-4 {
         order: 1;
         flex-basis: 100%;
     }
     
-    .about-box-8 {
+    .about-box-5 {
         order: 2;
         flex-basis: 100%;
     }
     
-    .about-box-9 {
+    .about-box-6 {
         order: 3;
         flex-basis: 100%;
     }
     
-    /*MY WORK PAGE: Highlighted Projects*/
-    
-    .picture-3-text {
-        width: 95%;
-        left: -3%;
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    
+    /*MyWork*/
     .mywork-flex-container-1, .mywork-flex-container-2 {
-        margin: 0 10px 25px 10px;
-    }
-    
-    .mywork-box-1, .mywork-box-2 {
-        background-position: -95 0;
-    }
-    
-    /*Projects: Showcase*/
-    .picture-3a-text, .picture-3b-text, .picture-3c-text, .picture-3d-text {
-        width: 95%;
-        left: -3%;
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    
-    /*CONTACT: Showcase*/
-    .picture-4-text {
-        width: 95%;
-        left: -3%;
-        font-size: 2rem;
-        line-height: 3rem;
+        margin: 0 1rem 2.5rem 1rem;
     }
 }
+
+/*************************/
+/*END*/
+/*************************/

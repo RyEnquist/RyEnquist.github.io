@@ -1,12 +1,9 @@
-<!DOCTYPE_html>
+<!DOCTYPE html>
 <html lang="en">
-<!---------------------->
-<!--Head Section-->
-<!---------------------->
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="Ryan Enquist: Marketing and Project Management">
         <meta name="keywords" content="Marketing, Advertising, Project Management, Design">
         <meta name="author" content="Ryan Enquist">
@@ -14,45 +11,34 @@
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-<!---------------------->
-<!--Body Section-->
-<!---------------------->
     <body>
-<!-------------------->
-<!--Showcase Section-->
-<!-------------------->
-        <section id="showcase">
-            <div class="picture-3b">
-<!------------------>
-<!--Navbar Section-->
-<!------------------>
-                <nav class="navbar">
-                    <span class="open-slide">
-                        <a href="#" onclick="openSlideMenu()">
-                            <svg width="30" height="30">
-                                <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                            </svg>
-                        </a>
-                    </span>
-                    <div id="side-menu" class="side-nav">
-                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                        <a href="index.html" >Home</a>
-                        <a href="about-index.html">About</a>
-                        <a href="my-work-index.html" class="current">My Work</a>
-                        <a href="contact-index.html">Contact</a>
-                    </div>
-                </nav>
-                <div class="picture-3b-text">
-                    <h1><span class="highlight">Ryan</span> Enquist</h1>
-                   <p>A World of Tile</p>
+        <!--Showcase Section-->
+        <section id="showcase-3b">
+            <!--Navbar Hamburger Menu-->
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="mywork.html" class="current">My Work</a>
+                    <a href="contact.html">Contact</a>
                 </div>
+            </nav>
+            <div class="picture-3b-text">
+                <h1><span class="highlight">Ryan</span> Enquist</h1>
+               <p>A World of Tile</p>
             </div>
         </section>
-<!------------->
-<!--Section 1-->
-<!------------->
+        <!--Section 1-->
         <section id="project-2-slideshow">
             <div class="wot-flex-container-1">
                 <div class="wot-box-1"></div>
@@ -61,23 +47,22 @@
                 <div class="wot-box-4"></div>
             </div>
         </section>
-<!------------->
-<!--Section 2-->
-<!------------->
+        <!--Section 2-->
         <div class="wot">
-        <h2>A World of Tile</h2>
+            <h2>A World of Tile</h2>
         </div>
         <section id="project-2">
             <div class="project-2-box-1">
                 <hr />
                 <h3>Project Brief</h3>
-                <p>A World of Tile is a tile retailer based out of Denver, CO. They have 16 locations, and a thriving ecommerce site. With no on-site “Marketer”, they sought the assistance of our Marketing Agency. I served as the primary, full service Marketing Manager for the organization.<br /><br />
+                <p>A World of Tile is a tile retailer based out of Denver, CO. They have 16 locations, and a thriving ecommerce site. With no on-site “Marketer”, they sought the assistance of our Marketing Agency. I served as the primary, full service Marketing Manager for the organization.
+                <br /><br />
 
                 My primary objective was to increase both website traffic and sales on a quarterly basis. I organized and executed various projects of all shapes, sizes, and budgets. I handled company wide marketing strategy, email campaigns, display advertising, SEO, website maintenance, social media, storefront marketing collateral (posters, brochures, product display, etc.), sales, contests, and opening of new retail store locations.</p>
                 <br />
                 <hr />
                 <h3>Conclusion</h3>
-                <p>With limited hours to allocate to Marketing efforts, I made efficient use of time and resources to help promote web traffic and increase overall sales. Through sound marketing and advertising strategy, A World of Tile was able to realize an increase in sales on annual basis and capture more market share from their competitors.</p>
+                <p>With limited hours to allocate to marketing efforts, I made efficient use of time and resources to help promote web traffic and increase overall sales. Through sound marketing and advertising strategy, A World of Tile was able to realize an increase in sales on annual basis and capture more market share from their competitors.</p>
             </div>
             <div class="project-2-box-2">
                 <h3>Services Provided</h3>
@@ -95,15 +80,11 @@
                 </ul>
             </div>
         </section>
-<!------------------>
-<!--Footer Section-->
-<!------------------>
+        <!--Footer Section-->
         <footer>
             <p>Copyright &copy; 2018 Ryan Enquist | Marketing Project Manager</p>
         </footer>
-<!---------------------->
-<!--JavaScript Section-->
-<!---------------------->
+        <!--JavaScript Section-->
         <script>
             function openSlideMenu(){
                 document.getElementById('side-menu').style.width = '250px';

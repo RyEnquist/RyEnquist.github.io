@@ -1,12 +1,9 @@
-<!DOCTYPE_html>
+<!DOCTYPE html>
 <html lang="en">
-<!---------------------->
-<!--Head Section-->
-<!---------------------->
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="Ryan Enquist: Marketing and Project Management">
         <meta name="keywords" content="Marketing, Advertising, Project Management, Design">
         <meta name="author" content="Ryan Enquist">
@@ -14,83 +11,68 @@
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-<!---------------------->
-<!--Body Section-->
-<!---------------------->
     <body>
-<!-------------------->
-<!--Showcase Section-->
-<!-------------------->
-        <section id="showcase">
-            <div class="picture-3">
-<!------------------>
-<!--Navbar Section-->
-<!------------------>
-                <nav class="navbar">
-                    <span class="open-slide">
-                        <a href="#" onclick="openSlideMenu()">
-                            <svg width="30" height="30">
-                                <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                            </svg>
-                        </a>
-                    </span>
-                    <div id="side-menu" class="side-nav">
-                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                        <a href="index.html">Home</a>
-                        <a href="about-index.html">About</a>
-                        <a href="my-work-index.html" class="current">My Work</a>
-                        <a href="contact-index.html">Contact</a>
-                    </div>
-                </nav>
-                <div class="picture-3-text">
-                    <h1><span class="highlight">Ryan</span> Enquist</h1>
-                    <p>My Work</p>
+        <!--Showcase Section-->
+        <section id="showcase-3">
+            <!--Navbar Hamburger Menu-->
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="mywork.html" class="current">My Work</a>
+                    <a href="contact.html">Contact</a>
                 </div>
+            </nav>
+            <div class="picture-3-text">
+                <h1><span class="highlight">Ryan</span> Enquist</h1>
+                <p>My Work</p>
             </div>
         </section>
-<!------------->
-<!--Section 1-->
-<!------------->
+        <!--Section 1-->
         <section class="mywork-section-1">
             <div class="mywork-box">
                 <h2>Highlighted <span class="highlight">Projects</span></h2>
-                <p>Check out some of my latest projects...</p>
+                <p>Check out some of my latest projects.</p>
             </div>
         </section>
-<!------------->
-<!--Section 2-->
-<!------------->
+        <!--Section 2-->
         <section class="mywork-section-2">
             <div class="mywork-flex-container-1">
                 <div class="mywork-box-1">
-                    <a href="my-work-devil-mtn-index.html" target="_blank">
+                    <a href="mywork-dm.html" target="_blank">
                         <p>Devil Mountain</p>
                     </a>
                 </div>
                 <div class="mywork-box-2">
-                    <a href="my-work-wot-index.html" target="_blank">
+                    <a href="mywork-wot.html" target="_blank">
                         <p>A World of Tile</p>
                     </a>
                 </div>
             </div>
             <div class="mywork-flex-container-2">
                 <div class="mywork-box-3">
-                     <a href="my-work-ac-index.html" target="_blank">
+                     <a href="mywork-ac.html" target="_blank">
                         <p>Alarm.com</p>
                     </a>
                 </div>
                 <div class="mywork-box-4">
-                     <a href="my-work-ag-index.html" target="_blank">
+                     <a href="mywork-ag.html" target="_blank">
                         <p>Astor Group</p>
                     </a>
                 </div>
             </div>
         </section>
-<!------------->
-<!--Section 3-->
-<!------------->
+        <!--Section 3-->
         <section class="mywork-section-3">
             <h2>Other <span class="highlight">Work</span></h2>
             <div class="mywork-flex-container-3">
@@ -104,15 +86,11 @@
                 <div class="mywork-box-12"></div>
             </div>
         </section>
-<!------------------>
-<!--Footer Section-->
-<!------------------>
+        <!--Footer Section-->
         <footer>
             <p>Copyright &copy; 2018 Ryan Enquist | Marketing Project Manager</p>
         </footer>
-<!---------------------->
-<!--JavaScript Section-->
-<!---------------------->
+        <!--JavaScript Section-->
         <script>
             function openSlideMenu(){
                 document.getElementById('side-menu').style.width = '250px';

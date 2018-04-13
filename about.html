@@ -1,12 +1,9 @@
-<!DOCTYPE_html>
+<!DOCTYPE html>
 <html lang="en">
-<!---------------------->
-<!--Head Section-->
-<!---------------------->
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="description" content="Ryan Enquist: Marketing and Project Management">
         <meta name="keywords" content="Marketing, Advertising, Project Management, Design">
         <meta name="author" content="Ryan Enquist">
@@ -14,45 +11,34 @@
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-<!---------------------->
-<!--Body Section-->
-<!---------------------->
     <body>
-<!-------------------->
-<!--Showcase Section-->
-<!-------------------->
-        <section id="showcase">
-            <div class="picture-2">
-<!------------------>
-<!--Navbar Section-->
-<!------------------>
-                <nav class="navbar">
-                    <span class="open-slide">
-                        <a href="#" onclick="openSlideMenu()">
-                            <svg width="30" height="30">
-                                <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                                <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
-                            </svg>
-                        </a>
-                    </span>
-                    <div id="side-menu" class="side-nav">
-                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-                        <a href="index.html">Home</a>
-                        <a href="about-index.html" class="current">About</a>
-                        <a href="my-work-index.html">My Work</a>
-                        <a href="contact-index.html">Contact</a>
-                    </div>
-                </nav>
-                <div class="picture-2-text">
-                    <h1><span class="highlight">Ryan</span> Enquist</h1>
-                    <p>About Me<p>
+        <!--Showcase-->
+        <section id="showcase-2">
+            <!--Navbar Hamburger Menu-->
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="rgb(255, 140, 0)" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html" class="current">About</a>
+                    <a href="mywork.html">My Work</a>
+                    <a href="contact.html">Contact</a>
                 </div>
+            </nav>
+            <div class="picture-2-text">
+                <h1><span class="highlight">Ryan</span> Enquist</h1>
+                <p>About Me<p>
             </div>
         </section>
-<!------------->
-<!--Section 1-->
-<!------------->
+        <!--Section 1-->
         <section class="about-section-1">
             <div class="about-box-1">
                 <h2>About <span class="highlight">Me</span></h2>
@@ -60,24 +46,21 @@
                 <p>Hobbies: Basketball (Go Trail Blazers!), Golf, Video Games, Taratino Movies, Hiking, The Outdoors!</p>
             </div>
         </section>
-<!------------->
-<!--Section 2-->
-<!------------->
+        <!--Section 2-->
         <section class="about-section-2">
-            <div class="about-picture-2"></div>
+            <!--Bridge Picture-->
+            <div class="about-picture"></div>
         </section>
-<!------------->
-<!--Section 3-->
-<!------------->
-        <section class="section-3">
-            <div class='about-box-5'>  
+        <!--Section 3-->
+        <section class="about-section-3">
+            <div class='about-box-2'>  
                 <h2>Education</h2>
                 <p>Portland State University<br>
                 Bachelor’s Degree<br>
                 Double Major: Marketing and Advertising<br>
                 2007-2013</p>
             </div>
-            <div class='about-box-6'>
+            <div class='about-box-3'>
                 <h2>Experience</h2>
                 <p>Marketing Project Manager<br />
                    East Bank Communications Group<br>
@@ -98,8 +81,8 @@
             <div class="about-section-3a">
             <!--Image: PS4 Controller-->
             </div>
-            <div class="section-3b">
-                <div class="about-box-7">
+            <div class="about-section-3b">
+                <div class="about-box-4">
                     <ul>
                         <h3>Knowledge</h3>
                         <i class="fa fa-puzzle-piece"></i>
@@ -118,7 +101,7 @@
                         <li>Sales</li>
                     </ul>
                 </div>
-                <div class="about-box-8">
+                <div class="about-box-5">
                     <h3>Skills</h3>
                     <ul>
                         <i class="fa fa-folder"></i>
@@ -137,7 +120,7 @@
                         <li>Time Management</li>
                     </ul>
                 </div>
-                <div class="about-box-9">
+                <div class="about-box-6">
                     <h3>Tools</h3>
                     <ul>
                         <i class="fa fa-pencil"></i>
@@ -158,15 +141,11 @@
                 </div>
             </div>
         </section>
-<!------------------>
-<!--Footer Section-->
-<!------------------>
+        <!--Footer Section-->
         <footer>
             <p>Copyright &copy; 2018 Ryan Enquist | Marketing Project Manager</p>
         </footer>
-<!---------------------->
-<!--JavaScript Section-->
-<!---------------------->
+        <!--JavaScript Section-->
         <script>
             function openSlideMenu(){
                 document.getElementById('side-menu').style.width = '250px';
