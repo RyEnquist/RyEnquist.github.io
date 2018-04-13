@@ -1593,7 +1593,11 @@ section#showcase-4 {
 }
 
 /*************************/
-@media(min-width: 425px) {
+@media(max-width: 425px) {
+    
+        background-attachment: scroll;
+    }
+    
     /*Global*/
     .picture-1-text,/*Homepage*/ 
     .picture-2-text,/*About*/
