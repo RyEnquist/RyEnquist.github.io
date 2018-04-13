@@ -1595,6 +1595,7 @@ section#showcase-4 {
 /*************************/
 @media(max-width: 425px) {
     
+    section#showcase {
         background-attachment: scroll;
     }
     
