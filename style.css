@@ -1442,6 +1442,20 @@ section#showcase-4 {
 /*************************/
 
 /*************************/
+@media(max-width: 770px) {
+/*Global*/
+    section#showcase,/*Homepage*/
+    section#showcase-2,/*About*/
+    section#showcase-3,/*MyWork*/
+    section#showcase-3a,/*Devil Mountain*/
+    section#showcase-3b,/*World of Tile*/
+    section#showcase-3c,/*Alarm.com*/
+    section#showcase-3d,/*Astor Group*/
+    section#showcase-4/*Contact*/ {
+        background-attachment: scroll;
+    }
+}
+/*************************/
 @media(max-width: 735px) {
     /*Global*/
     .picture-1-text,/*Homepage*/
@@ -1594,12 +1608,7 @@ section#showcase-4 {
 
 /*************************/
 @media(max-width: 425px) {
-    
-    section#showcase {
-        background-attachment: scroll;
-    }
-    
-    /*Global*/
+    /*Global*/    
     .picture-1-text,/*Homepage*/ 
     .picture-2-text,/*About*/
     .picture-3-text,/*MyWork*/
@@ -1656,7 +1665,6 @@ section#showcase-4 {
         margin: 0 1rem 2.5rem 1rem;
     }
 }
-
 /*************************/
 /*END*/
 /*************************/
