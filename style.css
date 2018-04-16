@@ -279,13 +279,36 @@ section#showcase {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     margin: 0 auto;
-    padding: 2.5rem 0;
+    padding: 2.5rem 0 2.5rem 0;
     background: rgb(245, 245, 245);
     text-align: center;
     font-size: 1.2rem;
+}
+
+.footer-p {
+    order: 1;
+}
+
+.sm {
+    order: 2;
+    font-size: 2.5rem;
+}
+
+.sm i {
+    padding: .5rem 1rem 0 1rem;
+}
+
+.sm a {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
+
+.sm a:hover {
+    color: rgb(102, 102, 102);
 }
 
 /*************************/
@@ -1341,7 +1364,7 @@ section#showcase-4 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("Images/Showcase/showcase-craterlake.jpg");
+    background-image: url("Images/Showcase/showcase-forest2.jpeg");
     min-height: 100%;
 }
 
@@ -1387,12 +1410,11 @@ section#showcase-4 {
     background-color: rgb(102, 102, 102);
     color: rgb(245, 245, 245);
     margin: 2.5rem 2.5rem 0 0;
-    padding-top: 2.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .company-info h3, .company-info p {
-    margin: 1rem 2rem;
+    margin: 1rem 2.5rem;
 }
 
 .company-info a {
@@ -1421,7 +1443,7 @@ section#showcase-4 {
     width: 2.5rem;
     align-content: center;
     color: rgb(255, 140, 0);
-    margin: 1rem 2rem;
+    margin: 1rem 2.5rem;
 }
 
 .contact-info-image {
@@ -1673,6 +1695,25 @@ section#showcase-4 {
     /*MyWork*/
     .mywork-flex-container-1, .mywork-flex-container-2 {
         margin: 0 1rem 2.5rem 1rem;
+    }
+    
+    /*Contact*/
+    .contact-flex-container {
+        margin: 0;
+        padding: 0;
+    }
+    .company-info i {
+        padding: 1rem 1rem;
+        margin: 0;
+    }
+    
+    .company-info h3, .company-info p {
+        padding: 1rem 1rem;
+        margin: 0;
+    }
+    
+    .contact-info-image {
+        width: 27.5rem;
     }
 }
 /*************************/
